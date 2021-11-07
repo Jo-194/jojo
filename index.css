@@ -1,0 +1,117 @@
+body {
+	background-attachment: fixed;
+	background-image: url("image2.jpg");
+
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+div.left {
+	display: block;
+	float: left;
+	height: 800px;
+	width: 21%;
+	border-right: 5px solid rgb(98, 211, 154);
+	/* border:1px solid; */
+	margin-top: 67px;
+	background-color: rgb(255, 255, 255);
+}
+div.right  {
+	display: block;
+	position:absolute;
+	height: 800px;
+	width: 77%;
+	margin-left: 22.2%;
+	margin-top: 67px;
+	float: right;
+	/* border:1px solid; */
+	
+
+}
+
+
+#head {
+	display: block;
+	position:absolute;
+	height: 75px;
+	width: 100%;
+	top: 0;
+	background-color: rgb(98, 211, 154);
+	position: fixed;
+	
+}
+div#head a {
+	position: relative;
+	float: left;
+	margin-top: 10px;
+
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+button.biblio {
+	float: right;
+	border: none;
+	color: black;
+
+}
+#footer {
+	display: block;
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	bottom: 0%;
+	background-color:transparent;
+}
+
+
+
+
+
+button {
+	font-size: 20px;
+	margin:15px;
+	padding: 15px;
+	border-radius: 40px 40px 40px 40px;
+	font-weight: bold;
+	background-color: transparent;
+	border-color: rgb(98, 211, 154);
+}
+
+a {
+	text-decoration: none;
+	text-transform: none;
+	color:rgb(66, 146, 106);
+	font-size: 20px;
+}
+button.bt3{
+	 padding-right: 50px;
+	 text-align: center;
+}
+.note input {
+	font-size: 25px;
+	width: 150px;
+
+	text-align: center;
+	color: teal;
+}
+.note{
+	color: teal;
+	border: 5px solid rgb(98, 211, 154);
+	width: 700px;
+	border-radius: 10px;
+	margin-left: 600px;
+	margin-top: 200px;
+	
+}
+.input-group{
+		margin-left: 150px;	
+		
+}
+.input-group input {
+	width: 400px;
+	border-bottom: 1px solid;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	text-align: left;
+}
